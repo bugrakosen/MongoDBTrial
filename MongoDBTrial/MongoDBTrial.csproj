@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MongoDBTrial.Data\MongoDBTrial.Data.csproj" />
+    <ProjectReference Include="..\MongoDBTrial.Entity\MongoDBTrial.Entity.csproj" />
+    <ProjectReference Include="..\MongoDBTrial.Middleware\MongoDBTrial.Middleware.csproj" />
+  </ItemGroup>
+
+</Project>
